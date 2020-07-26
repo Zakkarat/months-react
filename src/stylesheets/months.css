@@ -1,0 +1,37 @@
+.month {
+  width: 105px;
+  text-align: center;
+  margin: 1em;
+  align-self: center;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 5em;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+  box-shadow: -1px 6px 14px 1px silver;
+}
+
+.grey {
+  color: white;
+  background-color: grey;
+  border-color: #ededed;
+}
+
+.blue {
+  color: white;
+  background-color: blue;
+  border-color: #dadaff;
+}
+
+.green {
+  color: white;
+  background-color: green;
+  border-color: #e0ffe5;
+}
+
+.red {
+  color: white;
+  background-color: red;
+  border-color: #fdacac;
+}

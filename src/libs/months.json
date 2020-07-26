@@ -1,38 +1,52 @@
-[
-  {
-    "name": "January"
-  },
-  {
-    "name": "Febuary"
-  },
-  {
-    "name": "March"
-  },
-  {
-    "name": "April"
-  },
-  {
-    "name": "May"
-  },
-  {
-    "name": "June"
-  },
-  {
-    "name": "July"
-  },
-  {
-    "name": "August"
-  },
-  {
-    "name": "September"
-  },
-  {
-    "name": "October"
-  },
-  {
-    "name": "November"
-  },
-  {
-    "name": "December"
+{
+  "months": {
+    "0": {
+      "name": "January",
+      "value": 0
+    },
+    "1": {
+      "name": "February",
+      "value": 0
+    },
+    "2": {
+      "name": "March",
+      "value": 0
+    },
+    "3": {
+      "name": "April",
+      "value": 0
+    },
+    "4": {
+      "name": "May",
+      "value": 0
+    },
+    "5": {
+      "name": "June",
+      "value": 0
+    },
+    "6": {
+      "name": "July",
+      "value": 0
+    },
+    "7": {
+      "name": "August",
+      "value": 0
+    },
+    "8": {
+      "name": "September",
+      "value": 0
+    },
+    "9": {
+      "name": "October",
+      "value": 0
+    },
+    "10": {
+      "name": "November",
+      "value": 0
+    },
+    "11": {
+      "name": "December",
+      "value": 0
+    }
   }
-]
+}
