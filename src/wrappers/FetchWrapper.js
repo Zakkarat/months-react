@@ -4,6 +4,7 @@ import axios from "axios";
 
 const FetchWrapper = ({ children }) => {
   const [users, setUsers] = useState([]);
+
   useEffect(() => {
     (async () => {
       await axios(

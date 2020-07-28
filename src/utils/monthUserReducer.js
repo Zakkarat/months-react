@@ -1,6 +1,7 @@
-import { months } from "../libs/months.json";
-
-const reducer = (users) => {
+const reducer = (users, months) => {
+  Object.keys(months).forEach((elem) => {
+    months[elem].value = 0;
+  });
   const res = users.reduce((acc, curr) => {
     const month = new Date(curr.dob).getMonth();
     acc[month].value = acc[month].value + 1;
@@ -10,7 +11,7 @@ const reducer = (users) => {
 };
 
 const reduceColors = (res) => {
-  Object.keys(res).map((code) => {
+  Object.keys(res).forEach((code) => {
     const elem = res[code];
     switch (true) {
       case elem.value <= 2:
@@ -25,9 +26,7 @@ const reduceColors = (res) => {
       default:
         elem.color = "red";
     }
-    return elem;
   });
-
   return Object.values(res);
 };
 

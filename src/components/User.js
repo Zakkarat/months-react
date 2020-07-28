@@ -9,7 +9,6 @@ import {
 import datePrettiefier from "../utils/datePrettifier";
 
 const User = ({ firstName, lastName, dob }) => {
-  console.log(dob);
   return (
     <MDBCol md="3" className="mx-5 my-3">
       <MDBCard>
